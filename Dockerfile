@@ -1,8 +1,6 @@
 #FROM node:16
 #WORKDIR /app
-#COPY package.json server.js .
-#RUN npm install
-#CMD ["server.js"]
+
 
 
 FROM node:16 as build
